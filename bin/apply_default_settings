@@ -9,7 +9,7 @@ printf "%s\n" "System - Reveal IP address, hostname, OS version, etc. when click
 sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
 printf "%s\n" "System - Disable automatic termination of inactive apps."
-defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true
+defaults write NSGlobalDomain NSDisableAutomaticTermination -bool false
 
 printf "%s\n" "System - Expand save panel by default."
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
